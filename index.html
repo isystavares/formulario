@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <title>Formulário</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Criar Uma Conta</h2>
+        </div>
+
+        <form id="form" class="form">
+            <div class="form-control">
+                <label for="username"> Nome de usuário</label> <!--Email senha nome de usuario-->
+                <input type="text" id="username" placeholder="Digite seu nome de usuário..."/> <!--caixa-->
+                <i class="fas fa-exclamation-circle"></i> <!--Icon de erro-->
+                <i class="fas fa-check-circle"></i> <!--icon de sucesso-->
+                <small> Mensagem de erro </small> <!--mensagem de erro "senha errada"-->
+            </div>
+
+            <div class="form-control">
+                <label for="email"> Email </label> <!--Email senha nome de usuario-->
+                <input type="text" id="email" placeholder="Digite seu email..."/> <!--caixa-->
+                <i class="fas fa-exclamation-circle"></i> <!--Icon de erro-->
+                <i class="fas fa-check-circle"></i> <!--icon de sucesso-->
+                <small> Mensagem de erro </small> <!--mensagem de erro "senha errada"-->
+            </div>
+
+            <div class="form-control">
+                <label for="password"> Senha </label> <!--Email senha nome de usuario-->
+                <input type="password" id="password" placeholder="Digite sua senha..."/> <!--caixa-->
+                <i class="fas fa-exclamation-circle"></i> <!--Icon de erro-->
+                <i class="fas fa-check-circle"></i> <!--icon de sucesso-->
+                <small> Mensagem de erro </small> <!--mensagem de erro "senha errada"-->
+            </div>
+
+            <div class="form-control">
+                <label for="password-confirmation"> Confirmação de senha </label> <!--Email senha nome de usuario-->
+                <input type="password" id="password-confirmation" placeholder="Digite sua senha novamente..."/> <!--caixa-->
+                <i class="fas fa-exclamation-circle"></i> <!--Icon de erro-->
+                <i class="fas fa-check-circle"></i> <!--icon de sucesso-->
+                <small> Mensagem de erro </small> <!--mensagem de erro "senha errada"-->
+            </div>
+
+            <button type="submit"> Enviar </button>
+        </form>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/a716986535.js" crossorigin="anonymous"> </script>
+    <script src="scripts.js"></script>
+</body>
+</html>
